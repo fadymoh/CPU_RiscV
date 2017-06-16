@@ -1,0 +1,60 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "G:/AUC/Assembly/Lectures/CPU_RISCV/CPU_LAAST_TBB_EVER_isim_beh.exe" -prj "G:/AUC/Assembly/Lectures/CPU_RISCV/CPU_LAAST_TBB_EVER_beh.prj" "work.CPU_LAAST_TBB_EVER" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/AUC/Assembly/Lectures/CPU_RISCV/ipcore_dir/ROM.v" into library work
+Analyzing Verilog file "G:/AUC/Assembly/Lectures/CPU_RISCV/ipcore_dir/CPU_RAMMM.v" into library work
+Analyzing Verilog file "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" into library work
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 390: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 396: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 402: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 408: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 415: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 421: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "G:/AUC/Assembly/Lectures/CPU_RISCV/CPU_LAAST_TBB_EVER.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "G:/AUC/Assembly/Lectures/CPU_RISCV/CPU_LAAST_TBB_EVER.v" Line 37: Port x is not connected to this instance
+WARNING:HDLCompiler:189 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 775: Size mismatch in connection of port <addra>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 782: Size mismatch in connection of port <addra>. Formal port size is 8-bit while actual signal size is 11-bit.
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 390: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 396: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 402: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 408: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 415: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 421: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:189 - "G:/AUC/Assembly/Lectures/CPU_RISCV/DataPath.v" Line 54: Size mismatch in connection of port <A>. Formal port size is 8-bit while actual signal size is 16-bit.
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module ROM
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module CPU_RAMMM
+Compiling module immediates_generator
+Compiling module Control_Unit
+Compiling module regFile
+Compiling module ALU
+Compiling module check_branching
+Compiling module Adder32Bit
+Compiling module MUX_2to1
+Compiling module MUX_4to1
+Compiling module add3
+Compiling module binary_to_BCD
+Compiling module Sevenseg
+Compiling module clkDiv(n=50000000,k=500,l=1)
+Compiling module prog
+Compiling module DataPath
+Compiling module CPU_LAAST_TBB_EVER
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 26 Verilog Units
+Built simulation executable G:/AUC/Assembly/Lectures/CPU_RISCV/CPU_LAAST_TBB_EVER_isim_beh.exe
+Fuse Memory Usage: 33752 KB
+Fuse CPU Usage: 921 ms

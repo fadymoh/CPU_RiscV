@@ -1,0 +1,24 @@
+NET "sevent<0>" LOC = M12;
+NET "sevent<1>" LOC = L13;
+NET "sevent<2>" LOC = P12;
+NET "sevent<3>" LOC = N11;
+NET "sevent<4>" LOC = N14;
+NET "sevent<5>" LOC = H12;
+NET "sevent<6>" LOC = L14;
+
+NET "enabler_segment<0>" LOC = F12;
+NET "enabler_segment<1>" LOC = J12;
+NET "enabler_segment<2>" LOC = M13;
+NET "enabler_segment<3>" LOC = K14;
+
+NET "clk"  LOC = B8;
+
+NET "toggle_switches<0>" LOC = P11;
+NET "toggle_switches<1>" LOC = L3;
+NET "toggle_switches<2>" LOC = K3;
+NET "toggle_switches<3>" LOC = B4;
+NET "toggle_switches<4>" LOC = G3;
+
+NET "rst" LOC = N3;
+
+NET "x" LOC = E2;

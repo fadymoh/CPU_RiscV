@@ -1,0 +1,24 @@
+NET "value[0]" LOC = P11;
+NET "value[1]" LOC = L3;
+NET "value[2]" LOC = K3;
+NET "value[3]" LOC = B4;
+NET "value[4]" LOC = G3;
+NET "value[5]" LOC = F3;
+NET "value[6]" LOC = E2;
+//NET "value[0]" LOC = ;
+
+NET "clk" LOC = B8;
+NET "rst" LOC = N3;
+
+NET "sevent[0]" LOC = M12;
+NET "sevent[1]" LOC = L13;
+NET "sevent[2]" LOC = P12;
+NET "sevent[3]" LOC = N11;
+NET "sevent[4]" LOC = N14;
+NET "sevent[5]" LOC = H12;
+NET "sevent[6]" LOC = L14;
+
+NET "enable[0]" LOC = K14;
+NET "enable[1]" LOC = M13;
+NET "enable[2]" LOC = J12;
+NET "enable[3]" LOC = F12;

@@ -1,0 +1,29 @@
+Command line:
+   CPU_LAAST_TBB_EVER_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65066
+
+Sat May 20 14:45:54 2017
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 1499.87 Meg
+
+ Total Signals          : 428
+ Total Nets             : 2100
+ Total Signal Drivers   : 200
+ Total Blocks           : 61
+ Total Primitive Blocks : 51
+ Total Processes        : 251
+ Total Traceable Variables  : 704
+ Total Scalar Nets and Variables : 86347
+Total Line Count : 1291
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 870.687 Meg
+
+Sat May 20 14:53:34 2017
+

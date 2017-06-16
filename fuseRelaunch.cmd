@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "G:/AUC/Assembly/Lectures/CPU_RISCV/CPU_LAAST_TBB_EVER_isim_beh.exe" -prj "G:/AUC/Assembly/Lectures/CPU_RISCV/CPU_LAAST_TBB_EVER_beh.prj" "work.CPU_LAAST_TBB_EVER" "work.glbl" 

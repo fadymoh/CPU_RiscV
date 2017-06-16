@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat May 20 14:47:01 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "x" LOCATE = SITE "E2" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "rst" LOCATE = SITE "N3" LEVEL 1;
+COMP "enabler_segment<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "enabler_segment<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "enabler_segment<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "enabler_segment<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "sevent<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "sevent<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "sevent<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "sevent<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "sevent<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "sevent<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "sevent<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "toggle_switches<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "toggle_switches<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "toggle_switches<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "toggle_switches<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "toggle_switches<4>" LOCATE = SITE "G3" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

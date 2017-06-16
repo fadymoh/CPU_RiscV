@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/CPU_RAMM.v"
+verilog work "DataPath.v"
+verilog work "CPUUU_NC.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

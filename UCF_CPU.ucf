@@ -1,0 +1,20 @@
+NET "print<0>" LOC =  M12;
+NET "print<1>" LOC =  L13;
+NET "print<2>" LOC =  P12;
+NET "print<3>" LOC =  N11;
+NET "print<4>" LOC =  N14;
+NET "print<5>" LOC =  H12;
+NET "print<6>" LOC =  L14;
+
+NET "en<0>" LOC = K14;
+NET "en<1>" LOC = M13;
+NET "en<2>" LOC = J12;
+NET "en<3>" LOC = F12;
+
+
+NET "buttons[0]" LOC = P11;
+NET "buttons[1]" LOC = L3;
+NET "buttons[2]" LOC = K3;
+NET "buttons[3]" LOC = B4;
+NET "clk" LOC = B8;
+NET "rst" LOC = N3;

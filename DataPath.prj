@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/ROM.v"
+verilog work "ipcore_dir/CPU_RAMMM.v"
+verilog work "DataPath.v"
